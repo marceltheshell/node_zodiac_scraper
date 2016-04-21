@@ -39,14 +39,6 @@ console.log('The magic is happening on port 3000');
 exports = module.exports = app;
 
 
-/*
-1. Make sure your indentation is correct.  That's a huge, huge red flag for developers.
-2. Dont make variables with a capital letter as the first character.  When using javascript use camelCase (first letter is always lower-case and if you have multiple words, you connect them together by making the first letter of all subesquent words capital:  horroscopeList, placeHolder, camelCase...etc.)    
-3. I changed request to request-promise so that we could use a promise(basically a callback) to tell Node not to move forward until we have the data we need from the website.  
-
-*/
-
-
 	// var horroscopes = new Object();
 	// signes_zodiacs.urls.forEach(function(url, idx){
 		
